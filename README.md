@@ -74,18 +74,18 @@ The attack on a repeating-key XOR cipher involves the following steps:
       python3 xor_cracker.py
 
 # Limitations
-## Key Length Constraint:
+### Key Length Constraint:
   The tool is tested for keys of up to 5 characters. Beyond this, the computational complexity grows exponentially (256^k possibilities for a key of length k).
   If you have a high-performance machine, feel free to test it and it should give you accurate results.
 
-## Memory Usage:
+### Memory Usage:
   Generating all possible keys and testing them can consume significant memory, especially for longer key lengths used for encryption.
   The code uses optimizations like limiting candidates for each key byte to reduce memory overhead.
 
-## Keyword Dependency:
+### Keyword Dependency:
   If no keywords are provided, the algorithm relies on general English frequency scoring, which may not be effective for non-English plaintext.
 
-## Logging:
+### Logging:
   if no keyword provided, you will need to search for thousands of line to find the adequate plaintext with the key  that give the **full** readable and correct plaintext. since the algo will judge the key is good if it outputs a readable char when used in inverse.
 
 
