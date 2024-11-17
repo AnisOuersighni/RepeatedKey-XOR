@@ -5,13 +5,12 @@ Welcome to the Repeating-Key XOR Cipher Cracker! This project is an implementati
 This tool is particularly effective when one or more **known** words are present in the plaintext, which can significantly optimize the decryption process.
 
 ## Table of Contents
-  ### About the Project
-  ### Cryptanalysis Steps
-  ### Features
-  ### Usage
-  ### Limitations
-  ### Contributing
-  ### Acknowledgments
+  ### 1.About the Project
+  ### 2. Cryptanalysis Steps
+  ### 3. Features
+  ### 4. Usage
+  ### 5. Limitations
+  ### 6. Contributing
 
 ## About the Project
 The XOR cipher is a simple yet widely used encryption technique. The repeating-key XOR cipher encrypts plaintext using a fixed-size key repeated over the entire plaintext length. While easy to implement, it is vulnerable to statistical analysis and cryptanalysis due to its deterministic nature.
@@ -64,11 +63,12 @@ The attack on a repeating-key XOR cipher involves the following steps:
   ## Prerequisites
     Python 3.x installed on your system.
   ## Running the Program
-    Clone this repository:
-      git clone https://github.com/yourusername/xor-cipher-cracker.git
+  Clone this repository:
+      
+      git clone https://github.com/AnisOuersighni/Repeating-Key-XOR-Cipher-Cracker.git
       cd xor-cipher-cracker
 
-    Generate the ciphertext using the xor_generator.py script and put your key
+  Generate the ciphertext using the xor_generator.py script and put your key
     
     Run the script:
       python3 xor_cracker.py
