@@ -75,7 +75,7 @@ The attack on a repeating-key XOR cipher involves the following steps:
 
 # Limitations
 ### Key Length Constraint:
-  The tool is tested for keys of up to 5 characters. Beyond this, the computational complexity grows exponentially (256^k possibilities for a key of length k).
+  The tool is tested for keys of up to 5 characters ( 40 bits ). Beyond this, the computational complexity grows exponentially (256^k possibilities for a key of length k bytes).
   If you have a high-performance machine, feel free to test it and it should give you accurate results.
 
 ### Memory Usage:
